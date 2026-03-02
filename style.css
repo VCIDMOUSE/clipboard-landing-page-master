@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.header_pic {
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    top: -400px;
+}
