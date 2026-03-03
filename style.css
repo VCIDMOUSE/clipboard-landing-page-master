@@ -1,18 +1,40 @@
 body {
     margin: 0px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
     font-size: 18px;
 }
 
-
-.header_pic {
-    width: 100vw;
+main {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-main {
-    position: relative;
-    top: -400px;
+article{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 50vw;
+}
+
+.container{
+    display: flex;
+}
+
+.container_info{
+    margin-left: 5vw;
+    align-self: center;
+}
+
+.info{
+    width: 20vw;
+    text-align: left;
+}
+
+.info_2{
+    width: 20vw;
+    text-align: center;
 }
