@@ -7,7 +7,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Clipboard landing page</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -32,25 +36,23 @@
         devices. Our Mac and iOS apps will help you organize everything.</p>
     </article>
 
-    <article>
-      <div class="feature_container">
-        <img src="images/image-computer.png" alt="image-computer.png" class="picture">
-        <div class="feature_container_info">
-          <div class="feature">
-            <h3>Quick Search</h3>
-            <p>Easily search your snippets by content, category, web address, application, and more.</p>
-          </div>
-          <div class="feature">
-            <h3>iCloud Sync</h3>
-            <p>Instantly saves and syncs snippets across all your devices.</p>
-          </div>
-          <div class="feature">
-            <h3>Complete History</h3>
-            <p>Retrieve any snippets from the first moment you started using the app.</p>
-          </div>
+    <div class="feature_container">
+      <img src="images/image-computer.png" alt="image-computer.png" width="100%">
+      <div class="feature_container_info">
+        <div class="feature">
+          <h3>Quick Search</h3>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="feature">
+          <h3>iCloud Sync</h3>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="feature">
+          <h3>Complete History</h3>
+          <p>Retrieve any snippets from the first moment you started using the app.</p>
         </div>
       </div>
-    </article>
+    </div>
 
     <article>
       <h2>Access Clipboard anywhere</h2>
@@ -58,32 +60,32 @@
         snippets in a few simple clicks.</p>
     </article>
 
-    <img src="images/image-devices.png" alt="image-devices.png" class="picture">
+    <img src="images/image-devices.png" alt="image-devices.png">
 
     <article>
       <h2>Supercharge your workflow</h2>
       <p>We've got the tools to boost your productivity.</p>
     </article>
 
-    <div class="feature_container">
+    <div class="feature_container_2">
       <div class="feature_2">
-        <img src="images/icon-blacklist.svg" alt="icon-blacklist.svg">
+        <img src="images/icon-blacklist.svg" alt="icon-blacklist.svg" class="icon">
         <h3>Create blacklists</h3>
         <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
       </div>
       <div class="feature_2">
-        <img src="images/icon-text.svg" alt="icon-text.svg">
+        <img src="images/icon-text.svg" alt="icon-text.svg" class="icon">
         <h3>Plain text snippets</h3>
         <p>Remove unwanted formatting from copied text for a consistent look.</p>
       </div>
       <div class="feature_2">
-        <img src="images/icon-preview.svg" alt="icon-preview.svg">
+        <img src="images/icon-preview.svg" alt="icon-preview.svg" class="icon">
         <h3>Sneak preview</h3>
         <p>Quick preview of all snippets on your Clipboard for easy access.</p>
       </div>
     </div>
 
-    <div>
+    <div class="logos">
       <img src="images/logo-google.png" alt="logo-google.png">
       <img src="images/logo-ibm.png" alt="logo-ibm.png">
       <img src="images/logo-microsoft.png" alt="logo-microsoft.png">
@@ -99,8 +101,10 @@
       </p>
     </article>
 
-    <button><a href="">Download for iOS</a></button>
-    <button><a href="">Download for Mac</a></button>
+    <div class="download">
+      <div class="shadow_ios"><a href="" class="button_ios">Download for iOS</a></div>
+      <div class="shadow_mac"><a href="" class="button_mac">Download for Mac</a></div>
+    </div>
   </main>
 
   <!---

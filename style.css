@@ -18,12 +18,24 @@ article {
     margin-top: 5vh;
     margin-bottom: 5vh;
     width: 50vw;
+    border: 1px solid;
 }
 
 .feature_container {
     display: flex;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    border: 1px solid;
+}
+
+.feature_container_2 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+}
+
+.icon {
+    height: 40px;
 }
 
 .feature_container_info {
@@ -39,10 +51,11 @@ article {
 .feature_2 {
     width: 20vw;
     text-align: center;
+    margin-right: 50px;
 }
 
 .picture {
-    width: 80vh;
+    width: 60vw;
 }
 
 .download {
@@ -68,6 +81,11 @@ article {
     border-radius: 30px;
     box-shadow: 0px 3px 0px hsl(171, 66%, 34%);
     cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
 }
 
 .shadow_ios {
@@ -103,6 +121,11 @@ article {
     border-radius: 30px;
     box-shadow: 0px 3px 0px hsl(233, 100%, 59%);
     cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
 }
 
 .shadow_mac {
@@ -120,4 +143,28 @@ article {
 .button_mac:active {
     background-color: hsl(233, 50%, 55%);
     box-shadow: 0px 3px 0px hsl(233, 47%, 46%);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+.logos {
+    border: 1px solid;
+    margin-top: 5vh;
 }
